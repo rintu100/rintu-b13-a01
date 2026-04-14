@@ -43,16 +43,19 @@
     color: rgb(252, 252, 252);
     align-items: center;
 }
-.btn:hover{
-  background-color: white;
+
+.btn:hover {
+    background-color: white;
     color: #30B868;
-    
+
 }
-.btn2:hover{
+
+.btn2:hover {
     background-color: #30B868;
     color: white;
 }
-.btn3:hover{
+
+.btn3:hover {
     background-color: white;
     color: #30B868;
 }
@@ -123,10 +126,13 @@ nav .menu a {
     /* border: 1px solid rgb(43, 255, 0); */
 
 }
-#about{background-color:#F7F6F2}
+
+#about {
+    background-color: #F7F6F2
+}
 
 #about .about-container {
-   
+
     width: 80%;
     max-width: 1600px;
     margin: 0 auto;
@@ -197,32 +203,38 @@ nav .menu a {
     height: 30px;
 }
 
-.middle-section-container{
+.middle-section-container {
     display: flex;
     max-width: 1600px;
     margin: 0 auto;
-    margin-top: 50px;   
+    margin-top: 50px;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.right-side-section h2{
+.middle-section-container img {
+    height: 450px;
+}
+
+.right-side-section h2 {
     font-size: 48px;
     color: #001931;
 }
-.right-side-section p{
+
+.right-side-section p {
     margin-top: 15px;
     font-size: 16px;
     color: #627382;
 }
-.right-side-section ul{
+
+.right-side-section ul {
     margin-top: 15px;
     font-size: 20px;
     color: #001931;
-   line-height: 2.5;
+    line-height: 2.5;
 }
-.bottom-section-container{
+
+.bottom-section-container {
     margin-top: 15px;
     text-align: center;
     background-color: #F7F6F2;
@@ -230,38 +242,43 @@ nav .menu a {
     margin: 0 auto;
     padding: 50px;
 }
-.bottom-section-container h2{
+
+.bottom-section-container h2 {
     margin-top: 15px;
     font-size: 48px;
     color: #001931;
 }
-.bottom-section-container p{
+
+.bottom-section-container p {
     margin-top: 15px;
     font-size: 16px;
     color: #627382;
 }
-.bottom-section-container button{
-   margin-top: 20px; 
+
+.bottom-section-container button {
+    margin-top: 20px;
 }
-.footer-container-section{
+
+.footer-container-section {
     display: flex;
     justify-content: space-between;
-    background-color:#546d85;
+    background-color: #546d85;
     background-size: cover;
     max-width: 1600px;
     margin: 0 auto;
-    padding:70px 80px;
+    padding: 70px 80px;
     align-items: center;
 }
 
-.right-social-media-section img{
+.right-social-media-section img {
     height: 20px;
-    
+
 }
-.footer-background{
-margin-top: 30px;    
-background-color: #546d85;
-text-align: center;
-color: #FFFFFF;
-padding: 20px;
+
+.footer-background {
+    margin-top: 30px;
+    background-color: #546d85;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
 }
