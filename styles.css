@@ -25,7 +25,7 @@
     border: none;
     padding: 8px 12px;
     height: 35px;
-    width: 229px;
+    width: auto;
     border-radius: 1000px;
     font-size: 16px;
     font-weight: 600;
@@ -43,13 +43,27 @@
     color: rgb(252, 252, 252);
     align-items: center;
 }
+.btn:hover{
+  background-color: white;
+    color: #30B868;
+    
+}
+.btn2:hover{
+    background-color: #30B868;
+    color: white;
+}
+.btn3:hover{
+    background-color: white;
+    color: #30B868;
+}
 
 header {
     background-color: #ffffff;
     background: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50 padding-top: 26px;
+    background-position: 50 px;
+    /* padding-top: 26px; */
 
 }
 
@@ -60,6 +74,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .nav-container {
@@ -80,7 +95,7 @@ nav .menu a {
 
 #banner {
     padding: 100px;
-    /* border:1px solid red; */
+    /* border: 1px solid red; */
     margin: 151px 100px;
     text-align: center;
 
@@ -108,9 +123,10 @@ nav .menu a {
     /* border: 1px solid rgb(43, 255, 0); */
 
 }
+#about{background-color:#F7F6F2}
 
 #about .about-container {
-    border: 1px solid black;
+   
     width: 80%;
     max-width: 1600px;
     margin: 0 auto;
@@ -149,7 +165,7 @@ nav .menu a {
     width: 320px;
     box-shadow: 0 6px 50px 0 #a78f8f1f;
     text-align: center;
-   
+
 
 }
 
@@ -164,9 +180,10 @@ nav .menu a {
     font-weight: 400;
     color: #627382;
 }
-.icon-box{
-    width:60px;
-    height:60px;
+
+.icon-box {
+    width: 60px;
+    height: 60px;
     background-color: #F95555;
     border-radius: 50%;
     align-items: center;
@@ -174,8 +191,77 @@ nav .menu a {
     padding: 15px;
     justify-content: center;
 }
-.icon-box img{
-    width:30px;
-    height:30px;
+
+.icon-box img {
+    width: 30px;
+    height: 30px;
+}
+
+.middle-section-container{
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 50px;   
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right-side-section h2{
+    font-size: 48px;
+    color: #001931;
+}
+.right-side-section p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #627382;
+}
+.right-side-section ul{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #001931;
+   line-height: 2.5;
+}
+.bottom-section-container{
+    margin-top: 15px;
+    text-align: center;
+    background-color: #F7F6F2;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.bottom-section-container h2{
+    margin-top: 15px;
+    font-size: 48px;
+    color: #001931;
+}
+.bottom-section-container p{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #627382;
+}
+.bottom-section-container button{
+   margin-top: 20px; 
+}
+.footer-container-section{
+    display: flex;
+    justify-content: space-between;
+    background-color:#546d85;
+    background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding:70px 80px;
+    align-items: center;
+}
+
+.right-social-media-section img{
+    height: 20px;
     
+}
+.footer-background{
+margin-top: 30px;    
+background-color: #546d85;
+text-align: center;
+color: #FFFFFF;
+padding: 20px;
 }
